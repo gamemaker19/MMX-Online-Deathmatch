@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"botmid","wrapMode":"once","spritesheetPath":"mavericksX2.png","customMapName":"","hitboxes":[],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[{"tags":"antler_down","x":0,"y":-12},{"tags":"g","x":8,"y":-5}],"rect":{"topLeftPoint":{"x":1439,"y":99},"botRightPoint":{"x":1467,"y":172}},"offset":{"x":0,"y":0}}]}

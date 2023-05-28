@@ -1,0 +1,463 @@
+{
+  "name": "hunterbase2",
+  "path": "maps/hunterbase2/map.json",
+  "backgroundPath": "maps/hunterbase2/background.png",
+  "width": 2048,
+  "height": 224,
+  "supportsLargeCam": false,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "hunterbase2",
+  "displayName": "hunterbase 2",
+  "instances": [
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 192
+        },
+        {
+          "x": 2048,
+          "y": 192
+        },
+        {
+          "x": 2048,
+          "y": 228
+        },
+        {
+          "x": 0,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {
+        "boundary": true,
+        "unclimbable": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -7,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 192
+        },
+        {
+          "x": -7,
+          "y": 192
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {
+        "boundary": true,
+        "unclimbable": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 2046,
+          "y": 0
+        },
+        {
+          "x": 2058,
+          "y": 0
+        },
+        {
+          "x": 2058,
+          "y": 194
+        },
+        {
+          "x": 2046,
+          "y": 194
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 130,
+        "y": 175
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 309,
+        "y": 177
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 517,
+        "y": 173
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 760,
+        "y": 174
+      }
+    },
+    {
+      "name": "Spawn Point5",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 972,
+        "y": 170
+      }
+    },
+    {
+      "name": "Spawn Point6",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1206,
+        "y": 172
+      }
+    },
+    {
+      "name": "Spawn Point7",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1428,
+        "y": 172
+      }
+    },
+    {
+      "name": "Spawn Point8",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1606,
+        "y": 173
+      }
+    },
+    {
+      "name": "Spawn Point9",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1788,
+        "y": 171
+      }
+    },
+    {
+      "name": "Spawn Point10",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1994,
+        "y": 167
+      }
+    },
+    {
+      "name": "Blue Spawn1",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 60,
+        "y": 180
+      }
+    },
+    {
+      "name": "Blue Spawn2",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 89,
+        "y": 181
+      }
+    },
+    {
+      "name": "Blue Spawn3",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 120,
+        "y": 179
+      }
+    },
+    {
+      "name": "Blue Spawn4",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 149,
+        "y": 181
+      }
+    },
+    {
+      "name": "Blue Spawn5",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 179,
+        "y": 180
+      }
+    },
+    {
+      "name": "Large Health1",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 14,
+        "y": 184
+      }
+    },
+    {
+      "name": "Large Ammo1",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 35,
+        "y": 183
+      }
+    },
+    {
+      "name": "Blue Flag1",
+      "properties": {},
+      "objectName": "Blue Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 307,
+        "y": 181
+      }
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 310,
+        "y": 181
+      }
+    },
+    {
+      "name": "Red Spawn1",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1848,
+        "y": 174
+      }
+    },
+    {
+      "name": "Red Spawn2",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1882,
+        "y": 174
+      }
+    },
+    {
+      "name": "Red Spawn3",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1919,
+        "y": 175
+      }
+    },
+    {
+      "name": "Red Spawn4",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1954,
+        "y": 175
+      }
+    },
+    {
+      "name": "Red Spawn5",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1985,
+        "y": 175
+      }
+    },
+    {
+      "name": "Large Health2",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 2014,
+        "y": 175
+      }
+    },
+    {
+      "name": "Large Ammo2",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 2036,
+        "y": 175
+      }
+    },
+    {
+      "name": "Red Flag1",
+      "properties": {},
+      "objectName": "Red Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1696,
+        "y": 180
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1699,
+        "y": 178
+      }
+    },
+    {
+      "name": "Node3",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          },
+          {
+            "nodeName": "Node1"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1005,
+        "y": 180
+      }
+    },
+    {
+      "name": "Control Point1",
+      "properties": {
+        "hill": true
+      },
+      "objectName": "Control Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1006,
+        "y": 183
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps/hunterbase2/parallax.png",
+      "isLargeCamOverride": false,
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    }
+  ],
+  "mapSpritePaths": [],
+  "mergedWalls": [
+    [
+      [
+        2048,
+        228
+      ],
+      [
+        2048,
+        192
+      ],
+      [
+        0,
+        192
+      ],
+      [
+        0,
+        228
+      ]
+    ]
+  ],
+  "supportsCTF": true,
+  "supportsCP": false,
+  "supportsKOTH": true,
+  "supportsRace": false,
+  "mirrorMapImages": true,
+  "supportsVehicles": false
+}

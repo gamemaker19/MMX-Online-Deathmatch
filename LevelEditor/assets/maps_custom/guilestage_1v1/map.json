@@ -1,0 +1,403 @@
+{
+  "name": "guilestage_1v1",
+  "path": "maps_custom/guilestage_1v1/map.json",
+  "backgroundPath": "maps_custom/guilestage_1v1/background.png",
+  "width": 512,
+  "height": 224,
+  "supportsLargeCam": false,
+  "bgColorHex": "5088c8",
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "guile_1v1",
+  "displayName": "guile stage 1v1",
+  "instances": [
+    {
+      "name": "Backwall Zone1",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 5,
+          "y": 91
+        },
+        {
+          "x": 81,
+          "y": 91
+        },
+        {
+          "x": 81,
+          "y": 180
+        },
+        {
+          "x": 5,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone2",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 191,
+          "y": 86
+        },
+        {
+          "x": 389,
+          "y": 86
+        },
+        {
+          "x": 389,
+          "y": 146
+        },
+        {
+          "x": 191,
+          "y": 146
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone3",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 181,
+          "y": 65
+        },
+        {
+          "x": 237,
+          "y": 65
+        },
+        {
+          "x": 237,
+          "y": 84
+        },
+        {
+          "x": 181,
+          "y": 84
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone4",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 187,
+          "y": 81
+        },
+        {
+          "x": 187,
+          "y": 113
+        },
+        {
+          "x": 117,
+          "y": 113
+        },
+        {
+          "x": 117,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone5",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 375,
+          "y": 5
+        },
+        {
+          "x": 391,
+          "y": 5
+        },
+        {
+          "x": 374,
+          "y": 83
+        },
+        {
+          "x": 327,
+          "y": 83
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 195
+        },
+        {
+          "x": 512,
+          "y": 195
+        },
+        {
+          "x": 512,
+          "y": 223
+        },
+        {
+          "x": 0,
+          "y": 223
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -31,
+          "y": 17
+        },
+        {
+          "x": 6,
+          "y": 17
+        },
+        {
+          "x": 6,
+          "y": 195
+        },
+        {
+          "x": -31,
+          "y": 195
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 505,
+          "y": 8
+        },
+        {
+          "x": 529,
+          "y": 8
+        },
+        {
+          "x": 529,
+          "y": 195
+        },
+        {
+          "x": 505,
+          "y": 195
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 181,
+        "y": 189
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 326,
+        "y": 188
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 131,
+        "y": 188
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 395,
+        "y": 192
+      }
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 110,
+        "y": 185
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node1"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 375,
+        "y": 186
+      }
+    },
+    {
+      "name": "Map Sprite1",
+      "properties": {
+        "spriteName": "guilestage_1v1:people1"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 136,
+        "y": 188
+      }
+    },
+    {
+      "name": "Map Sprite2",
+      "properties": {
+        "spriteName": "guilestage_1v1:people2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 256,
+        "y": 190
+      }
+    },
+    {
+      "name": "Map Sprite3",
+      "properties": {
+        "spriteName": "guilestage_1v1:people3"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 371,
+        "y": 190
+      }
+    },
+    {
+      "name": "Map Sprite4",
+      "properties": {
+        "destructableFlag": 3,
+        "spriteName": "guilestage_1v1:crate",
+        "gibSpriteName": "guilestage_1v1:cratepieces"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 60,
+        "y": 179
+      }
+    },
+    {
+      "name": "Map Sprite5",
+      "properties": {
+        "destructableFlag": 3,
+        "flipX": true,
+        "spriteName": "guilestage_1v1:crate",
+        "gibSpriteName": "guilestage_1v1:cratepieces"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 453,
+        "y": 179
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps_custom/guilestage_1v1/parallax.png",
+      "isLargeCamOverride": false,
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    },
+    {
+      "path": "maps_custom/guilestage_1v1/parallax2.png",
+      "isLargeCamOverride": false,
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 100,
+      "speedX": 0.25,
+      "speedY": 0.25,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        512,
+        223
+      ],
+      [
+        512,
+        195
+      ],
+      [
+        0,
+        195
+      ],
+      [
+        0,
+        223
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "supportsVehicles": false
+}

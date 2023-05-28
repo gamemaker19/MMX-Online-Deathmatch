@@ -1,0 +1,1 @@
+{"alignment":"botmid","wrapMode":"once","spritesheetPath":"ra_kangaroo.png","alignOffX":0,"alignOffY":0,"hitboxes":[],"frames":[{"duration":0.082,"hitboxes":[{"width":46,"height":30,"flag":3,"name":"stomp","isTrigger":true,"offset":{"x":2,"y":0}}],"POIs":[{"x":4,"y":-54}],"rect":{"topLeftPoint":{"x":875,"y":293},"botRightPoint":{"x":944,"y":350}},"offset":{"x":0,"y":0}}]}

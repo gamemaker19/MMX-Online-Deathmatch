@@ -1,0 +1,1 @@
+MMXOnline.exe 2>shaderErrors.txt

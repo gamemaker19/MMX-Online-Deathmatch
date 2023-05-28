@@ -1,0 +1,1 @@
+{"alignment":"botmid","wrapMode":"once","spritesheetPath":"vileMK2.png","hitboxes":[],"frames":[{"duration":0.066,"hitboxes":[{"width":51,"height":33,"flag":0,"name":"stomp","isTrigger":true,"offset":{"x":2,"y":0}}],"POIs":[{"x":4,"y":-63}],"rect":{"topLeftPoint":{"x":688,"y":575},"botRightPoint":{"x":743,"y":642}},"offset":{"x":0,"y":0}}]}

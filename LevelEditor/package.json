@@ -1,0 +1,125 @@
+{
+  "name": "mmxod-editor",
+  "author": "Gamemaker19",
+  "version": "3.2.0",
+  "description": "MMXOD Editor",
+  "main": "./.webpack/main/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "start-le": "electron-forge start -- levelEditor",
+    "package": "electron-forge package",
+    "package_x86": "electron-forge package --arch=ia32",
+    "make": "electron-forge make",
+    "release": "electron-forge publish",
+    "lint": "eslint . --ext js,ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "react-hot-loader": "4.13.0",
+    "@babel/core": "7.14.6",
+    "@babel/plugin-transform-runtime": "7.14.5",
+    "@babel/preset-env": "7.14.5",
+    "@babel/preset-react": "7.14.5",
+    "@babel/preset-typescript": "7.14.5",
+    "@babel/plugin-proposal-decorators": "7.15.8",
+    "@electron-forge/cli": "6.0.0-beta.57",
+    "@electron-forge/maker-deb": "6.0.0-beta.57",
+    "@electron-forge/maker-rpm": "6.0.0-beta.57",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.57",
+    "@electron-forge/maker-zip": "6.0.0-beta.57",
+    "@electron-forge/plugin-webpack": "6.0.0-beta.57",
+    "@marshallofsound/webpack-asset-relocator-loader": "0.5.0",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "11.2.7",
+    "@types/electron-devtools-installer": "2.2.0",
+    "@types/jest": "26.0.23",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.8",
+    "@types/styled-components": "5.1.10",
+    "@types/node": "18.0.1",
+    "@typescript-eslint/eslint-plugin": "4.27.0",
+    "@typescript-eslint/parser": "4.27.0",
+    "babel-loader": "8.2.2",
+    "cross-env": "7.0.3",
+    "electron": "13.1.2",
+    "eslint": "7.29.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-standard": "5.0.0",
+    "jest": "27.0.4",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.3.1",
+    "ts-jest": "27.0.3",
+    "typescript": "4.3.4",
+    "wait-on": "5.3.0",
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.172",
+    "reflect-metadata": "^0.1.13",
+    "class-transformer": "0.4.0",
+    "polybooljs": "1.2.0",
+    "strip-json-trailing-commas": "1.1.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "name": "MMXOD Sprite Editor",
+        "executableName": "MMXOD Sprite Editor",
+        "icon": "favicon.ico"
+      },
+      "plugins": [
+        [
+          "@electron-forge/plugin-webpack",
+          {
+            "mainConfig": "./webpack/main.webpack.js",
+            "renderer": {
+              "config": "./webpack/renderer.webpack.js",
+              "entryPoints": [
+                {
+                  "html": "./public/index.html",
+                  "js": "./src/index.tsx",
+                  "name": "main_window",
+                  "preload": {
+                    "js": "./electron/bridge.ts"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "MMXOD Sprite Editor"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+#sprite-editor {
+  white-space: nowrap;
+}
+
+#soj {
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#soj-text {
+  font-size: 75px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  margin-top: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#selected-hitbox {
+  border: 1px solid blue;
+}
+
+.sprite-list-container {
+  display:inline-block;
+  width: 200px;
+  height: 900px;
+  border: 1px solid black;
+  vertical-align: top;
+}
+
+.sprite-item {
+  cursor: default;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.hitbox-input {
+  width: 120px;
+}
+
+.sprite-list-scroll {
+  overflow: scroll;
+  width: 100%;
+  height: 760px;
+}
+
+.hitbox-section {
+  padding: 5px;
+  display:block;
+  border: 1px solid black;
+}
+
+.hitbox-tag-input {
+  width: 40px;
+}
+
+.frame-data {
+  padding: 4px;
+}
+
+.selected-frame {
+  -webkit-box-shadow:inset 0px 0px 0px 2px lightgreen;
+  -moz-box-shadow:inset 0px 0px 0px 2px lightgreen;
+  box-shadow:inset 0px 0px 0px 2px lightgreen;
+}
+
+.canvas-section {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.canvas-wrapper {
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+.level-canvas-wrapper {
+  overflow: scroll;
+  background: darkgray;
+}
+
+.short-input {
+  width: 50px;
+}
+
+.number-input {
+  display: inline-block;
+  height: 16px;
+  width: 50px;
+}
+
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input-buttons {
+  vertical-align: middle;
+  display: inline-block;
+  height: 22px;
+  margin-top: -1px;
+  margin-left: -15px;
+}
+
+.number-input-button {
+  display: block;
+  width: 15px;
+  height: 11px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 6px;
+}
+
+#map-properties {
+  margin-top: 2px;
+  padding: 2px;
+}
+
+#instance-properties {
+  margin-top: 2px;
+  padding: 2px;
+}
+
+.parallax {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px;
+}
+
+.unselectable {
+  cursor: default;
+}
+
+.properties {
+  display:inline-block;
+  vertical-align: top;
+}
+
+#newSpriteLabel {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#newSpriteBox {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.selected-button {
+  border: 2px solid lightgreen;
+}
+
+.top-menu {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+#level-editor, #sprite-editor {
+  padding: 45px 5px 5px 5px;
+  white-space: nowrap;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  margin: 8;
+}

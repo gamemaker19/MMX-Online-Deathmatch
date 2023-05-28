@@ -1,0 +1,54 @@
+========
+Hotkeys: 
+========
+
+e (with collision box selected): merge nearby vertices
++/-: zoom
+space: place last object
+p: copy selected shape(s)
+
+b: show camera bounds
+
+Selected shape/instance:
+c: link two nodes
+x: remove node neighbirs
+left/right/up/down: move selection(s)
+WASD: resize left/top of box
+Shift + WASD: resize right/bottom of box
+TFGH: move selection(s)
+
+================
+JSON Properties:
+================
+
+"isBlueFlagNode": true,
+"isRedFlagNode": true,
+"controlPointNodeNum": 1,
+
+"isDropNode": true
+"isJumpNode": true
+
+"ladderName": "Ladder1"
+"platformJumpDir": 1
+
+"nonDmOnly": true
+"dmOnly": true
+"nonCpOnly": true
+
+"num": 1  //control points
+"xDir": -1   //spawn points
+
+"freeDir": "up"
+"freeDir": "down"
+"freeDir": "left"
+"freeDir": "right"
+
+"stingInvuln": true
+
+"pitWall": true
+
+===========
+Misc. Info:
+===========
+
+short map name limit: 13-14

@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"botmid","wrapMode":"once","spritesheetPath":"crackedWalls.png","customMapName":"","hitboxes":[{"tags":"","width":96,"height":42,"isTrigger":false,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":74,"y":4},"botRightPoint":{"x":170,"y":55}},"offset":{"x":0,"y":0}}]}

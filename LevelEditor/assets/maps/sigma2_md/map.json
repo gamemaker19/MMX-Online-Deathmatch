@@ -1,0 +1,574 @@
+{
+  "name": "sigma2_md",
+  "path": "maps/sigma2_md/map.json",
+  "backgroundPath": "maps/sigma2_md/background.png",
+  "backwallPath": "",
+  "foregroundPath": "",
+  "width": 1150,
+  "height": 329,
+  "killY": 400,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "sigma2_md",
+  "displayName": "sigma stage 2 md",
+  "instances": [
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 76,
+        "y": 203
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 366,
+        "y": 203
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 765,
+        "y": 197
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1079,
+        "y": 203
+      }
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 255,
+          "y": 218
+        },
+        {
+          "x": 894,
+          "y": 218
+        },
+        {
+          "x": 894,
+          "y": 249
+        },
+        {
+          "x": 255,
+          "y": 249
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 990,
+          "y": 218
+        },
+        {
+          "x": 1147,
+          "y": 218
+        },
+        {
+          "x": 1147,
+          "y": 249
+        },
+        {
+          "x": 990,
+          "y": 249
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 3,
+          "y": 218
+        },
+        {
+          "x": 158,
+          "y": 217
+        },
+        {
+          "x": 158,
+          "y": 250
+        },
+        {
+          "x": 0,
+          "y": 250
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "pitWall": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 101,
+          "y": 250
+        },
+        {
+          "x": 152,
+          "y": 250
+        },
+        {
+          "x": 152,
+          "y": 328
+        },
+        {
+          "x": 101,
+          "y": 328
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "pitWall": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 260,
+          "y": 248
+        },
+        {
+          "x": 310,
+          "y": 248
+        },
+        {
+          "x": 310,
+          "y": 328
+        },
+        {
+          "x": 260,
+          "y": 328
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "pitWall": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 837,
+          "y": 249
+        },
+        {
+          "x": 889,
+          "y": 249
+        },
+        {
+          "x": 889,
+          "y": 328
+        },
+        {
+          "x": 837,
+          "y": 328
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "pitWall": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 997,
+          "y": 249
+        },
+        {
+          "x": 1050,
+          "y": 249
+        },
+        {
+          "x": 1050,
+          "y": 326
+        },
+        {
+          "x": 997,
+          "y": 326
+        }
+      ]
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 105,
+        "y": 203
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          },
+          {
+            "nodeName": "Node1"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 306,
+        "y": 201
+      }
+    },
+    {
+      "name": "Node3",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node4"
+          },
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 565,
+        "y": 201
+      }
+    },
+    {
+      "name": "Node4",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node5"
+          },
+          {
+            "nodeName": "Node3"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 859,
+        "y": 203
+      }
+    },
+    {
+      "name": "Node5",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node4"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1053,
+        "y": 203
+      }
+    },
+    {
+      "name": "Jump Zone",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 155,
+          "y": 176
+        },
+        {
+          "x": 259,
+          "y": 176
+        },
+        {
+          "x": 259,
+          "y": 236
+        },
+        {
+          "x": 155,
+          "y": 236
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 893,
+          "y": 182
+        },
+        {
+          "x": 992,
+          "y": 182
+        },
+        {
+          "x": 992,
+          "y": 235
+        },
+        {
+          "x": 893,
+          "y": 235
+        }
+      ]
+    },
+    {
+      "name": "Large Ammo1",
+      "properties": {},
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 568,
+        "y": 211
+      }
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -60,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 218
+        },
+        {
+          "x": -60,
+          "y": 218
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1146,
+          "y": 7
+        },
+        {
+          "x": 1188,
+          "y": 7
+        },
+        {
+          "x": 1188,
+          "y": 237
+        },
+        {
+          "x": 1146,
+          "y": 237
+        }
+      ]
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps/sigma2_md/parallax.png",
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        152,
+        250
+      ],
+      [
+        152,
+        328
+      ],
+      [
+        101,
+        328
+      ],
+      [
+        101,
+        250
+      ],
+      [
+        0,
+        250
+      ],
+      [
+        3,
+        218
+      ],
+      [
+        158,
+        217
+      ],
+      [
+        158,
+        250
+      ]
+    ],
+    [
+      [
+        894,
+        249
+      ],
+      [
+        894,
+        218
+      ],
+      [
+        255,
+        218
+      ],
+      [
+        255,
+        249
+      ],
+      [
+        260,
+        249
+      ],
+      [
+        260,
+        328
+      ],
+      [
+        310,
+        328
+      ],
+      [
+        310,
+        249
+      ],
+      [
+        837,
+        249
+      ],
+      [
+        837,
+        328
+      ],
+      [
+        889,
+        328
+      ],
+      [
+        889,
+        249
+      ]
+    ],
+    [
+      [
+        1147,
+        249
+      ],
+      [
+        1147,
+        218
+      ],
+      [
+        990,
+        218
+      ],
+      [
+        990,
+        249
+      ],
+      [
+        997,
+        249
+      ],
+      [
+        997,
+        326
+      ],
+      [
+        1050,
+        326
+      ],
+      [
+        1050,
+        249
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "parallaxShader": "",
+  "parallaxShaderImage": "",
+  "backgroundShader": "",
+  "backgroundShaderImage": "",
+  "supportsVehicles": false
+}

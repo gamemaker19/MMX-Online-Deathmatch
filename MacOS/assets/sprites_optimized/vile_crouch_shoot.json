@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"botmid","wrapMode":"once","spritesheetPath":"vile.png","alignOffX":0,"alignOffY":0,"hitboxes":[],"frames":[{"duration":0.03,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[{"x":23,"y":-22},{"tags":"h","x":2,"y":-25}],"rect":{"topLeftPoint":{"x":426,"y":41},"botRightPoint":{"x":468,"y":74}},"offset":{"x":2,"y":0}}]}

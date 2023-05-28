@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"center","wrapMode":"once","spritesheetPath":"mavericks3.png","hitboxes":[{"tags":"","width":7,"height":11,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":155,"y":4},"botRightPoint":{"x":162,"y":15}},"offset":{"x":0,"y":0}}]}

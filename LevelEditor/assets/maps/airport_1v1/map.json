@@ -1,0 +1,264 @@
+{
+  "name": "airport_1v1",
+  "path": "maps/airport_1v1/map.json",
+  "backgroundPath": "maps/airport_1v1/background.png",
+  "backwallPath": "maps/airport_1v1/backwall.png",
+  "width": 640,
+  "height": 224,
+  "killY": 261,
+  "supportsLargeCam": true,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "airport_1v1",
+  "displayName": "airport 1v1",
+  "instances": [
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "pitWall": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 63,
+          "y": 177
+        },
+        {
+          "x": 576,
+          "y": 177
+        },
+        {
+          "x": 576,
+          "y": 202
+        },
+        {
+          "x": 63,
+          "y": 202
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 142,
+          "y": 202
+        },
+        {
+          "x": 576,
+          "y": 202
+        },
+        {
+          "x": 576,
+          "y": 226
+        },
+        {
+          "x": 142,
+          "y": 226
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 66,
+          "y": 200
+        },
+        {
+          "x": 66,
+          "y": 197
+        },
+        {
+          "x": 157,
+          "y": 197
+        },
+        {
+          "x": 157,
+          "y": 218
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone1",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 39,
+          "y": 176
+        },
+        {
+          "x": 82,
+          "y": 176
+        },
+        {
+          "x": 82,
+          "y": 334
+        },
+        {
+          "x": 39,
+          "y": 334
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone2",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 555,
+          "y": 178
+        },
+        {
+          "x": 601,
+          "y": 178
+        },
+        {
+          "x": 601,
+          "y": 346
+        },
+        {
+          "x": 555,
+          "y": 346
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 258,
+        "y": 161
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 445,
+        "y": 163
+      }
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 237,
+        "y": 161
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node1"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 446,
+        "y": 162
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 205,
+        "y": 160
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 486,
+        "y": 162
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps_shared/airport_parallax.png",
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": -125,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 250,
+      "scrollSpeedY": 250
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        576,
+        226
+      ],
+      [
+        576,
+        177
+      ],
+      [
+        63,
+        177
+      ],
+      [
+        63,
+        202
+      ],
+      [
+        76.11111111111111,
+        202
+      ],
+      [
+        142,
+        215.03296703296704
+      ],
+      [
+        142,
+        226
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "defaultLargeCam": true,
+  "supportsVehicles": false
+}

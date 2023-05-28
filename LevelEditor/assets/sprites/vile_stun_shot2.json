@@ -1,0 +1,1 @@
+{"alignment":"center","wrapMode":"once","spritesheetPath":"vileMK2.png","alignOffX":0,"alignOffY":0,"hitboxes":[{"tags":"","width":5,"height":5,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.03,"hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":1100,"y":158},"botRightPoint":{"x":1105,"y":163}},"offset":{"x":0,"y":0}}]}

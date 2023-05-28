@@ -1,0 +1,179 @@
+{
+    "loopStartFrame": 0,
+    "alignment": "center",
+    "wrapMode": "loop",
+    "spritesheetPath": "airport_spritesheet.png",
+    "hitboxes":
+    [],
+    "frames":
+    [
+        {
+            "duration": 0.199,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 8
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "duration": 0.099,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 9
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 16
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "duration": 0.099,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 17
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 24
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "duration": 0.199,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 25
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 32
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "duration": 0.099,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 17
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 24
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "duration": 0.099,
+            "xDir": 1,
+            "yDir": 1,
+            "tags": "",
+            "hitboxes":
+            [],
+            "POIs":
+            [],
+            "rect":
+            {
+                "topLeftPoint":
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                "botRightPoint":
+                {
+                    "x": 49,
+                    "y": 8
+                }
+            },
+            "offset":
+            {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"botmid","wrapMode":"loop","spritesheetPath":"mavericksX2.png","customMapName":"","hitboxes":[],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[{"tags":"shield","x":5,"y":-23}],"rect":{"topLeftPoint":{"x":2,"y":1144},"botRightPoint":{"x":50,"y":1180}},"offset":{"x":2,"y":-5}}]}

@@ -1,0 +1,227 @@
+{
+  "name": "bossroom_1v1",
+  "path": "maps/bossroom_1v1/map.json",
+  "backgroundPath": "maps/bossroom_1v1/background.png",
+  "backwallPath": "maps/bossroom_1v1/backwall.png",
+  "width": 298,
+  "height": 224,
+  "supportsLargeCam": false,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "bossroom_1v1",
+  "displayName": "powerplant 1v1",
+  "instances": [
+    {
+      "name": "Backwall Zone1",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 40,
+          "y": 34
+        },
+        {
+          "x": 257,
+          "y": 34
+        },
+        {
+          "x": 257,
+          "y": 190
+        },
+        {
+          "x": 40,
+          "y": 190
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 295,
+          "y": 7
+        },
+        {
+          "x": 295,
+          "y": 30
+        },
+        {
+          "x": 6,
+          "y": 30
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 6,
+          "y": 194
+        },
+        {
+          "x": 295,
+          "y": 194
+        },
+        {
+          "x": 295,
+          "y": 223
+        },
+        {
+          "x": 6,
+          "y": 223
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 6,
+          "y": 30
+        },
+        {
+          "x": 36,
+          "y": 30
+        },
+        {
+          "x": 36,
+          "y": 194
+        },
+        {
+          "x": 6,
+          "y": 194
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape4",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 264,
+          "y": 30
+        },
+        {
+          "x": 295,
+          "y": 30
+        },
+        {
+          "x": 295,
+          "y": 194
+        },
+        {
+          "x": 264,
+          "y": 194
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point",
+      "properties": {
+        "xDir": 1,
+        "num": 0
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 56,
+        "y": 178
+      }
+    },
+    {
+      "name": "Spawn Point",
+      "properties": {
+        "num": 1,
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 240,
+        "y": 177
+      }
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 97,
+        "y": 177
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 206,
+        "y": 177
+      }
+    }
+  ],
+  "parallaxes": [],
+  "mergedWalls": [
+    [
+      [
+        264,
+        194
+      ],
+      [
+        264,
+        30
+      ],
+      [
+        36,
+        30
+      ],
+      [
+        36,
+        194
+      ]
+    ],
+    [
+      [
+        295,
+        223
+      ],
+      [
+        295,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        223
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "supportsVehicles": false
+}

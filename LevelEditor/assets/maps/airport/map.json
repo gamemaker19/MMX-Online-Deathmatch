@@ -1,0 +1,4023 @@
+{
+  "name": "airport",
+  "path": "maps/airport/map.json",
+  "backgroundPath": "maps/airport/background.png",
+  "backwallPath": "maps/airport/backwall.png",
+  "foregroundPath": "",
+  "width": 1056,
+  "height": 772,
+  "maxPlayers": 10,
+  "supportsLargeCam": true,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "airport",
+  "displayName": "airport",
+  "instances": [
+    {
+      "name": "Backwall Zone1",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 271,
+          "y": 239
+        },
+        {
+          "x": 340,
+          "y": 239
+        },
+        {
+          "x": 340,
+          "y": 325
+        },
+        {
+          "x": 271,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone2",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 721,
+          "y": 239
+        },
+        {
+          "x": 791,
+          "y": 239
+        },
+        {
+          "x": 791,
+          "y": 329
+        },
+        {
+          "x": 721,
+          "y": 329
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone3",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 613,
+          "y": 371
+        },
+        {
+          "x": 677,
+          "y": 371
+        },
+        {
+          "x": 677,
+          "y": 501
+        },
+        {
+          "x": 613,
+          "y": 501
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone4",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 97,
+          "y": 419
+        },
+        {
+          "x": 572,
+          "y": 419
+        },
+        {
+          "x": 572,
+          "y": 571
+        },
+        {
+          "x": 97,
+          "y": 571
+        }
+      ]
+    },
+    {
+      "name": "Map Sprite",
+      "properties": {
+        "repeatX": 4,
+        "repeatY": 8,
+        "destructableFlag": 1,
+        "spriteName": "ms_headbutt_block2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 569,
+        "y": 509
+      }
+    },
+    {
+      "name": "Map Sprite",
+      "properties": {
+        "repeatX": 4,
+        "repeatY": 8,
+        "destructableFlag": 1,
+        "spriteName": "ms_headbutt_block2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 441,
+        "y": 509
+      }
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -198,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 679
+        },
+        {
+          "x": -198,
+          "y": 679
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 177,
+          "y": 583
+        },
+        {
+          "x": 335,
+          "y": 583
+        },
+        {
+          "x": 335,
+          "y": 710
+        },
+        {
+          "x": 177,
+          "y": 710
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 225,
+          "y": 501
+        },
+        {
+          "x": 432,
+          "y": 501
+        },
+        {
+          "x": 432,
+          "y": 529
+        },
+        {
+          "x": 225,
+          "y": 529
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape4",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 64,
+          "y": 710
+        },
+        {
+          "x": 298,
+          "y": 710
+        },
+        {
+          "x": 298,
+          "y": 786
+        },
+        {
+          "x": 64,
+          "y": 786
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape5",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 355
+        },
+        {
+          "x": 33,
+          "y": 355
+        },
+        {
+          "x": 33,
+          "y": 696
+        },
+        {
+          "x": 0,
+          "y": 696
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape6",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -92,
+          "y": 680
+        },
+        {
+          "x": 64,
+          "y": 680
+        },
+        {
+          "x": 64,
+          "y": 772
+        },
+        {
+          "x": -92,
+          "y": 772
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape7",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 239,
+          "y": 198
+        },
+        {
+          "x": 494,
+          "y": 198
+        },
+        {
+          "x": 494,
+          "y": 226
+        },
+        {
+          "x": 239,
+          "y": 226
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape8",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 304,
+          "y": 166
+        },
+        {
+          "x": 369,
+          "y": 166
+        },
+        {
+          "x": 369,
+          "y": 198
+        },
+        {
+          "x": 304,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape9",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 400,
+          "y": 102
+        },
+        {
+          "x": 719,
+          "y": 102
+        },
+        {
+          "x": 719,
+          "y": 130
+        },
+        {
+          "x": 400,
+          "y": 130
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape10",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 621,
+          "y": 196
+        },
+        {
+          "x": 879,
+          "y": 196
+        },
+        {
+          "x": 879,
+          "y": 226
+        },
+        {
+          "x": 621,
+          "y": 226
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape11",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 398,
+          "y": 292
+        },
+        {
+          "x": 687,
+          "y": 292
+        },
+        {
+          "x": 687,
+          "y": 325
+        },
+        {
+          "x": 398,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape12",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 64,
+          "y": 325
+        },
+        {
+          "x": 992,
+          "y": 325
+        },
+        {
+          "x": 992,
+          "y": 355
+        },
+        {
+          "x": 64,
+          "y": 355
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape13",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 289,
+          "y": 353
+        },
+        {
+          "x": 335,
+          "y": 353
+        },
+        {
+          "x": 335,
+          "y": 502
+        },
+        {
+          "x": 289,
+          "y": 502
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape14",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 334,
+          "y": 679
+        },
+        {
+          "x": 764,
+          "y": 679
+        },
+        {
+          "x": 764,
+          "y": 772
+        },
+        {
+          "x": 334,
+          "y": 772
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape15",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 417,
+          "y": 529
+        },
+        {
+          "x": 432,
+          "y": 529
+        },
+        {
+          "x": 432,
+          "y": 626
+        },
+        {
+          "x": 417,
+          "y": 628
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape16",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 722,
+          "y": 355
+        },
+        {
+          "x": 766,
+          "y": 355
+        },
+        {
+          "x": 766,
+          "y": 501
+        },
+        {
+          "x": 722,
+          "y": 501
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape17",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 625,
+          "y": 529
+        },
+        {
+          "x": 638,
+          "y": 529
+        },
+        {
+          "x": 638,
+          "y": 626
+        },
+        {
+          "x": 625,
+          "y": 626
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape18",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1025,
+          "y": 357
+        },
+        {
+          "x": 1054,
+          "y": 357
+        },
+        {
+          "x": 1054,
+          "y": 675
+        },
+        {
+          "x": 1025,
+          "y": 675
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape19",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 721,
+          "y": 583
+        },
+        {
+          "x": 879,
+          "y": 583
+        },
+        {
+          "x": 879,
+          "y": 713
+        },
+        {
+          "x": 721,
+          "y": 713
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape20",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 993,
+          "y": 677
+        },
+        {
+          "x": 1056,
+          "y": 677
+        },
+        {
+          "x": 1056,
+          "y": 771
+        },
+        {
+          "x": 993,
+          "y": 771
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape21",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 764,
+          "y": 711
+        },
+        {
+          "x": 993,
+          "y": 711
+        },
+        {
+          "x": 993,
+          "y": 775
+        },
+        {
+          "x": 764,
+          "y": 775
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape22",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 752,
+          "y": 168
+        },
+        {
+          "x": 814,
+          "y": 168
+        },
+        {
+          "x": 814,
+          "y": 196
+        },
+        {
+          "x": 752,
+          "y": 196
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape23",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1052,
+          "y": 2
+        },
+        {
+          "x": 1121,
+          "y": 2
+        },
+        {
+          "x": 1121,
+          "y": 708
+        },
+        {
+          "x": 1052,
+          "y": 708
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape24",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 496,
+          "y": 501
+        },
+        {
+          "x": 560,
+          "y": 501
+        },
+        {
+          "x": 560,
+          "y": 530
+        },
+        {
+          "x": 496,
+          "y": 530
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape25",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 625,
+          "y": 501
+        },
+        {
+          "x": 831,
+          "y": 501
+        },
+        {
+          "x": 831,
+          "y": 529
+        },
+        {
+          "x": 625,
+          "y": 529
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone1",
+      "properties": {
+        "targetNode": "Node3"
+      },
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 32,
+          "y": 360
+        },
+        {
+          "x": 66,
+          "y": 360
+        },
+        {
+          "x": 66,
+          "y": 681
+        },
+        {
+          "x": 32,
+          "y": 681
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone2",
+      "properties": {
+        "targetNode": "Node4"
+      },
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1,
+          "y": 318
+        },
+        {
+          "x": 66,
+          "y": 318
+        },
+        {
+          "x": 66,
+          "y": 355
+        },
+        {
+          "x": 1,
+          "y": 355
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone3",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 387,
+          "y": 285
+        },
+        {
+          "x": 411,
+          "y": 285
+        },
+        {
+          "x": 411,
+          "y": 324
+        },
+        {
+          "x": 387,
+          "y": 324
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone4",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 285,
+          "y": 167
+        },
+        {
+          "x": 390,
+          "y": 167
+        },
+        {
+          "x": 390,
+          "y": 198
+        },
+        {
+          "x": 285,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone5",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 668,
+          "y": 287
+        },
+        {
+          "x": 698,
+          "y": 287
+        },
+        {
+          "x": 698,
+          "y": 325
+        },
+        {
+          "x": 668,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone6",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 51,
+          "y": 677
+        },
+        {
+          "x": 90,
+          "y": 677
+        },
+        {
+          "x": 90,
+          "y": 709
+        },
+        {
+          "x": 51,
+          "y": 709
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone7",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 320,
+          "y": 580
+        },
+        {
+          "x": 365,
+          "y": 580
+        },
+        {
+          "x": 365,
+          "y": 679
+        },
+        {
+          "x": 320,
+          "y": 679
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone8",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 158,
+          "y": 579
+        },
+        {
+          "x": 178,
+          "y": 579
+        },
+        {
+          "x": 178,
+          "y": 709
+        },
+        {
+          "x": 158,
+          "y": 709
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone9",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 484,
+          "y": 195
+        },
+        {
+          "x": 505,
+          "y": 195
+        },
+        {
+          "x": 505,
+          "y": 228
+        },
+        {
+          "x": 484,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone10",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 235,
+          "y": 197
+        },
+        {
+          "x": 255,
+          "y": 197
+        },
+        {
+          "x": 255,
+          "y": 228
+        },
+        {
+          "x": 235,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone11",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 392,
+          "y": 97
+        },
+        {
+          "x": 417,
+          "y": 97
+        },
+        {
+          "x": 417,
+          "y": 135
+        },
+        {
+          "x": 392,
+          "y": 135
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone12",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 703,
+          "y": 98
+        },
+        {
+          "x": 726,
+          "y": 98
+        },
+        {
+          "x": 726,
+          "y": 133
+        },
+        {
+          "x": 703,
+          "y": 133
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone13",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 198,
+          "y": 472
+        },
+        {
+          "x": 227,
+          "y": 472
+        },
+        {
+          "x": 227,
+          "y": 579
+        },
+        {
+          "x": 198,
+          "y": 579
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone14",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 983,
+          "y": 322
+        },
+        {
+          "x": 1051,
+          "y": 322
+        },
+        {
+          "x": 1051,
+          "y": 358
+        },
+        {
+          "x": 983,
+          "y": 358
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone15",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1010,
+          "y": 355
+        },
+        {
+          "x": 1027,
+          "y": 355
+        },
+        {
+          "x": 1027,
+          "y": 677
+        },
+        {
+          "x": 1010,
+          "y": 677
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone16",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 875,
+          "y": 584
+        },
+        {
+          "x": 893,
+          "y": 584
+        },
+        {
+          "x": 893,
+          "y": 713
+        },
+        {
+          "x": 875,
+          "y": 713
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone17",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 702,
+          "y": 584
+        },
+        {
+          "x": 729,
+          "y": 584
+        },
+        {
+          "x": 729,
+          "y": 675
+        },
+        {
+          "x": 702,
+          "y": 675
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone18",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 975,
+          "y": 679
+        },
+        {
+          "x": 997,
+          "y": 679
+        },
+        {
+          "x": 997,
+          "y": 710
+        },
+        {
+          "x": 975,
+          "y": 710
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone19",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 609,
+          "y": 193
+        },
+        {
+          "x": 632,
+          "y": 193
+        },
+        {
+          "x": 632,
+          "y": 230
+        },
+        {
+          "x": 609,
+          "y": 230
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone20",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 861,
+          "y": 192
+        },
+        {
+          "x": 887,
+          "y": 192
+        },
+        {
+          "x": 887,
+          "y": 233
+        },
+        {
+          "x": 861,
+          "y": 233
+        }
+      ]
+    },
+    {
+      "name": "Jump Zone21",
+      "properties": {},
+      "objectName": "Jump Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 738,
+          "y": 173
+        },
+        {
+          "x": 828,
+          "y": 173
+        },
+        {
+          "x": 828,
+          "y": 197
+        },
+        {
+          "x": 738,
+          "y": 197
+        }
+      ]
+    },
+    {
+      "name": "Blue Spawn1",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 651,
+        "y": 664
+      }
+    },
+    {
+      "name": "Blue Spawn2",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 387,
+        "y": 667
+      }
+    },
+    {
+      "name": "Blue Spawn3",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 416,
+        "y": 665
+      }
+    },
+    {
+      "name": "Blue Spawn4",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 690,
+        "y": 663
+      }
+    },
+    {
+      "name": "Blue Spawn5",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 354,
+        "y": 666
+      }
+    },
+    {
+      "name": "Red Spawn1",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 294,
+        "y": 307
+      }
+    },
+    {
+      "name": "Red Spawn2",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 345,
+        "y": 307
+      }
+    },
+    {
+      "name": "Red Spawn3",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 806,
+        "y": 311
+      }
+    },
+    {
+      "name": "Red Spawn4",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 721,
+        "y": 311
+      }
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 133,
+        "y": 695
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 190,
+        "y": 310
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 526,
+        "y": 278
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 530,
+        "y": 84
+      }
+    },
+    {
+      "name": "Spawn Point5",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 445,
+        "y": 665
+      }
+    },
+    {
+      "name": "Spawn Point6",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 840,
+        "y": 306
+      }
+    },
+    {
+      "name": "Spawn Point7",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 785,
+        "y": 152
+      }
+    },
+    {
+      "name": "Spawn Point8",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 330,
+        "y": 151
+      }
+    },
+    {
+      "name": "Spawn Point9",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 252,
+        "y": 484
+      }
+    },
+    {
+      "name": "Blue Flag1",
+      "properties": {},
+      "objectName": "Blue Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 526,
+        "y": 665
+      }
+    },
+    {
+      "name": "Control Point1",
+      "properties": {
+        "num": 1
+      },
+      "objectName": "Control Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 554,
+        "y": 276
+      }
+    },
+    {
+      "name": "Control Point2",
+      "properties": {
+        "num": 2
+      },
+      "objectName": "Control Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 565,
+        "y": 87
+      }
+    },
+    {
+      "name": "Red Flag1",
+      "properties": {},
+      "objectName": "Red Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 566,
+        "y": 87
+      }
+    },
+    {
+      "name": "Large Ammo2",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 596,
+        "y": 669
+      }
+    },
+    {
+      "name": "Large Ammo9",
+      "properties": {},
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 705,
+        "y": 493
+      }
+    },
+    {
+      "name": "Large Health2",
+      "properties": {
+        "nonDmOnly": true
+      },
+      "objectName": "Large Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 463,
+        "y": 670
+      }
+    },
+    {
+      "name": "Large Health11",
+      "properties": {},
+      "objectName": "Large Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 347,
+        "y": 494
+      }
+    },
+    {
+      "name": "Small Ammo6",
+      "properties": {},
+      "objectName": "Small Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 336,
+        "y": 156
+      }
+    },
+    {
+      "name": "Small Health6",
+      "properties": {},
+      "objectName": "Small Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 780,
+        "y": 161
+      }
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 250,
+        "y": 486
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node1"
+          },
+          {
+            "nodeName": "Node11"
+          },
+          {
+            "nodeName": "Node12"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 204,
+        "y": 565
+      }
+    },
+    {
+      "name": "Node3",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node4"
+          },
+          {
+            "nodeName": "Node11",
+            "includeJumpZones": ""
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 19,
+        "y": 337
+      }
+    },
+    {
+      "name": "Node4",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          },
+          {
+            "nodeName": "Node9"
+          },
+          {
+            "nodeName": "Node10",
+            "platformJumpDir": "left"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 526,
+        "y": 273
+      }
+    },
+    {
+      "name": "Node5",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          },
+          {
+            "nodeName": "Node10"
+          },
+          {
+            "nodeName": "Node6",
+            "platformJumpDir": "right"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 335,
+        "y": 148
+      }
+    },
+    {
+      "name": "Node6",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node5"
+          },
+          {
+            "nodeName": "Node8"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 565,
+        "y": 87
+      }
+    },
+    {
+      "name": "Node7",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node9"
+          },
+          {
+            "nodeName": "Node14"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 863,
+        "y": 308
+      }
+    },
+    {
+      "name": "Node8",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node6",
+            "platformJumpDir": "left"
+          },
+          {
+            "nodeName": "Node9"
+          },
+          {
+            "nodeName": "Node14"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 782,
+        "y": 148
+      }
+    },
+    {
+      "name": "Node9",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node7"
+          },
+          {
+            "nodeName": "Node4"
+          },
+          {
+            "nodeName": "Node8",
+            "platformJumpDir": "right"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 589,
+        "y": 276
+      }
+    },
+    {
+      "name": "Node10",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node4"
+          },
+          {
+            "nodeName": "Node5"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 444,
+        "y": 179
+      }
+    },
+    {
+      "name": "Node11",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          },
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 96,
+        "y": 695
+      }
+    },
+    {
+      "name": "Node12",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          },
+          {
+            "nodeName": "Node17"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 322,
+        "y": 565
+      }
+    },
+    {
+      "name": "Node13",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node16"
+          },
+          {
+            "nodeName": "Node14"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 948,
+        "y": 691
+      }
+    },
+    {
+      "name": "Node14",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node13",
+            "includeJumpZones": ""
+          },
+          {
+            "nodeName": "Node7"
+          },
+          {
+            "nodeName": "Node8"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1034,
+        "y": 340
+      }
+    },
+    {
+      "name": "Node15",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node16"
+          },
+          {
+            "nodeName": "Node17"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 741,
+        "y": 565
+      }
+    },
+    {
+      "name": "Node16",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node15"
+          },
+          {
+            "nodeName": "Node13"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 860,
+        "y": 565
+      }
+    },
+    {
+      "name": "Node17",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node12"
+          },
+          {
+            "nodeName": "Node15"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 529,
+        "y": 660
+      }
+    },
+    {
+      "name": "Red Spawn5",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 761,
+        "y": 312
+      }
+    },
+    {
+      "name": "Map Sprite1",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 432,
+        "y": 112
+      }
+    },
+    {
+      "name": "Map Sprite2",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 560,
+        "y": 112
+      }
+    },
+    {
+      "name": "Map Sprite3",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 688,
+        "y": 112
+      }
+    },
+    {
+      "name": "Map Sprite4",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 271,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite5",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 335,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite6",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 399,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite7",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 463,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite8",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 655,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite9",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 719,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite10",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 848,
+        "y": 208
+      }
+    },
+    {
+      "name": "Map Sprite11",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 97,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite12",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 225,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite13",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 353,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite14",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 431,
+        "y": 304
+      }
+    },
+    {
+      "name": "Map Sprite15",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 481,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite16",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 495,
+        "y": 304
+      }
+    },
+    {
+      "name": "Map Sprite17",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 591,
+        "y": 304
+      }
+    },
+    {
+      "name": "Map Sprite18",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 609,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite19",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 655,
+        "y": 304
+      }
+    },
+    {
+      "name": "Map Sprite20",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 729,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite21",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 841,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite22",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 961,
+        "y": 336
+      }
+    },
+    {
+      "name": "Map Sprite23",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 33,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite24",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 97,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite25",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 161,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite26",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite27",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 257,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite28",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 249,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite29",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 305,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite30",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 624
+      }
+    },
+    {
+      "name": "Map Sprite31",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 656
+      }
+    },
+    {
+      "name": "Map Sprite32",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 321,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite33",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 377,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite34",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 433,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite35",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 526,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite36",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 624,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite37",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 680,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite38",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 736,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite39",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 656
+      }
+    },
+    {
+      "name": "Map Sprite40",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 624
+      }
+    },
+    {
+      "name": "Map Sprite41",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 752,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite42",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 800,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite43",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 808,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite44",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 592
+      }
+    },
+    {
+      "name": "Map Sprite45",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 896,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite46",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 960,
+        "y": 720
+      }
+    },
+    {
+      "name": "Map Sprite47",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1024,
+        "y": 688
+      }
+    },
+    {
+      "name": "Map Sprite48",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 257,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite49",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 321,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite50",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 377,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite51",
+      "properties": {
+        "spriteName": "ms_airport_flags2"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 680,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite52",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 736,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite53",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 800,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite54",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 335,
+        "y": 176
+      }
+    },
+    {
+      "name": "Map Sprite55",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 783,
+        "y": 179
+      }
+    },
+    {
+      "name": "Map Sprite56",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 424,
+        "y": 128
+      }
+    },
+    {
+      "name": "Map Sprite57",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 472,
+        "y": 128
+      }
+    },
+    {
+      "name": "Map Sprite58",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 552,
+        "y": 128
+      }
+    },
+    {
+      "name": "Map Sprite59",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 600,
+        "y": 128
+      }
+    },
+    {
+      "name": "Map Sprite60",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 680,
+        "y": 128
+      }
+    },
+    {
+      "name": "Map Sprite61",
+      "properties": {
+        "spriteName": "ms_airport_flags"
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 528,
+        "y": 512
+      }
+    },
+    {
+      "name": "Map Sprite62",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 327,
+        "y": 192
+      }
+    },
+    {
+      "name": "Map Sprite63",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 263,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite64",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 327,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite65",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 391,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite66",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 455,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite67",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 775,
+        "y": 195
+      }
+    },
+    {
+      "name": "Map Sprite68",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 647,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite69",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 711,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite70",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 759,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite71",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 839,
+        "y": 224
+      }
+    },
+    {
+      "name": "Map Sprite72",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 17,
+        "y": 368
+      }
+    },
+    {
+      "name": "Map Sprite73",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 89,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite74",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 137,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite75",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 217,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite76",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 265,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite77",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 345,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite78",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 393,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite79",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 473,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite80",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 521,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite81",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 601,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite82",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 649,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite83",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 729,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite84",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 761,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite85",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 841,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite86",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 4
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 873,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite87",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 953,
+        "y": 352
+      }
+    },
+    {
+      "name": "Map Sprite88",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1040,
+        "y": 368
+      }
+    },
+    {
+      "name": "Map Sprite89",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 423,
+        "y": 320
+      }
+    },
+    {
+      "name": "Map Sprite90",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 487,
+        "y": 320
+      }
+    },
+    {
+      "name": "Map Sprite91",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 535,
+        "y": 320
+      }
+    },
+    {
+      "name": "Map Sprite92",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 583,
+        "y": 320
+      }
+    },
+    {
+      "name": "Map Sprite93",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 647,
+        "y": 320
+      }
+    },
+    {
+      "name": "Map Sprite94",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 384
+      }
+    },
+    {
+      "name": "Map Sprite95",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 416
+      }
+    },
+    {
+      "name": "Map Sprite96",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 448
+      }
+    },
+    {
+      "name": "Map Sprite97",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 480
+      }
+    },
+    {
+      "name": "Map Sprite98",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 384
+      }
+    },
+    {
+      "name": "Map Sprite99",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 416
+      }
+    },
+    {
+      "name": "Map Sprite100",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 448
+      }
+    },
+    {
+      "name": "Map Sprite101",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 480
+      }
+    },
+    {
+      "name": "Map Sprite102",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 25,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite103",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 89,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite104",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 153,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite105",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite106",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite107",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 249,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite108",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 249,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite109",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 297,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite110",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite111",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 377,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite112",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 425,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite113",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 520,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite114",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 633,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite115",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 680,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite116",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite117",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 760,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite118",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 808,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite119",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 608
+      }
+    },
+    {
+      "name": "Map Sprite120",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 808,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite121",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite122",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 904,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite123",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 968,
+        "y": 736
+      }
+    },
+    {
+      "name": "Map Sprite124",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 1032,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite125",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 249,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite126",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 313,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite127",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 377,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite128",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 520,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite129",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 680,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite130",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 744,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite131",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 2,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 808,
+        "y": 528
+      }
+    },
+    {
+      "name": "Map Sprite132",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 640
+      }
+    },
+    {
+      "name": "Map Sprite133",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 672
+      }
+    },
+    {
+      "name": "Map Sprite134",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 201,
+        "y": 704
+      }
+    },
+    {
+      "name": "Map Sprite135",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 640
+      }
+    },
+    {
+      "name": "Map Sprite136",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 672
+      }
+    },
+    {
+      "name": "Map Sprite137",
+      "properties": {
+        "spriteName": "ms_airport_floor",
+        "repeatX": 1,
+        "flipX": true
+      },
+      "objectName": "Map Sprite",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 856,
+        "y": 704
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps_shared/airport_parallax.png",
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": -37,
+      "scrollSpeedY": 30
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        494,
+        226
+      ],
+      [
+        494,
+        198
+      ],
+      [
+        369,
+        198
+      ],
+      [
+        369,
+        166
+      ],
+      [
+        304,
+        166
+      ],
+      [
+        304,
+        198
+      ],
+      [
+        239,
+        198
+      ],
+      [
+        239,
+        226
+      ]
+    ],
+    [
+      [
+        560,
+        530
+      ],
+      [
+        560,
+        501
+      ],
+      [
+        496,
+        501
+      ],
+      [
+        496,
+        530
+      ]
+    ],
+    [
+      [
+        719,
+        130
+      ],
+      [
+        719,
+        102
+      ],
+      [
+        400,
+        102
+      ],
+      [
+        400,
+        130
+      ]
+    ],
+    [
+      [
+        879,
+        226
+      ],
+      [
+        879,
+        196
+      ],
+      [
+        814,
+        196
+      ],
+      [
+        814,
+        168
+      ],
+      [
+        752,
+        168
+      ],
+      [
+        752,
+        196
+      ],
+      [
+        621,
+        196
+      ],
+      [
+        621,
+        226
+      ]
+    ],
+    [
+      [
+        992,
+        355
+      ],
+      [
+        992,
+        325
+      ],
+      [
+        687,
+        325
+      ],
+      [
+        687,
+        292
+      ],
+      [
+        398,
+        292
+      ],
+      [
+        398,
+        325
+      ],
+      [
+        64,
+        325
+      ],
+      [
+        64,
+        355
+      ],
+      [
+        289,
+        355
+      ],
+      [
+        289,
+        501
+      ],
+      [
+        225,
+        501
+      ],
+      [
+        225,
+        529
+      ],
+      [
+        417,
+        529
+      ],
+      [
+        417,
+        628
+      ],
+      [
+        432,
+        626
+      ],
+      [
+        432,
+        501
+      ],
+      [
+        335,
+        501
+      ],
+      [
+        335,
+        355
+      ],
+      [
+        722,
+        355
+      ],
+      [
+        722,
+        501
+      ],
+      [
+        625,
+        501
+      ],
+      [
+        625,
+        626
+      ],
+      [
+        638,
+        626
+      ],
+      [
+        638,
+        529
+      ],
+      [
+        831,
+        529
+      ],
+      [
+        831,
+        501
+      ],
+      [
+        766,
+        501
+      ],
+      [
+        766,
+        355
+      ]
+    ],
+    [
+      [
+        1054,
+        675
+      ],
+      [
+        1054,
+        357
+      ],
+      [
+        1025,
+        357
+      ],
+      [
+        1025,
+        675
+      ]
+    ],
+    [
+      [
+        1056,
+        771
+      ],
+      [
+        1056,
+        677
+      ],
+      [
+        993,
+        677
+      ],
+      [
+        993,
+        711
+      ],
+      [
+        879,
+        711
+      ],
+      [
+        879,
+        583
+      ],
+      [
+        721,
+        583
+      ],
+      [
+        721,
+        679
+      ],
+      [
+        335,
+        679
+      ],
+      [
+        335,
+        583
+      ],
+      [
+        177,
+        583
+      ],
+      [
+        177,
+        710
+      ],
+      [
+        64,
+        710
+      ],
+      [
+        64,
+        680
+      ],
+      [
+        33,
+        680
+      ],
+      [
+        33,
+        355
+      ],
+      [
+        0,
+        355
+      ],
+      [
+        0,
+        680
+      ],
+      [
+        -92,
+        680
+      ],
+      [
+        -92,
+        772
+      ],
+      [
+        64,
+        772
+      ],
+      [
+        64,
+        786
+      ],
+      [
+        298,
+        786
+      ],
+      [
+        298,
+        710
+      ],
+      [
+        334,
+        710
+      ],
+      [
+        334,
+        772
+      ],
+      [
+        764,
+        772
+      ],
+      [
+        764,
+        775
+      ],
+      [
+        993,
+        775
+      ],
+      [
+        993,
+        771
+      ]
+    ]
+  ],
+  "supportsCTF": true,
+  "supportsCP": true,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "supportsVehicles": false
+}

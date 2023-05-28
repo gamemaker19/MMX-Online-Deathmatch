@@ -1,0 +1,1 @@
+{"alignment":"botmid","wrapMode":"once","spritesheetPath":"ra_devilbear.png","hitboxes":[],"frames":[{"duration":0.066,"hitboxes":[{"width":34,"height":31,"flag":0,"name":"stomp","isTrigger":true,"offset":{"x":0,"y":0}}],"POIs":[{"x":1,"y":-63}],"rect":{"topLeftPoint":{"x":443,"y":732},"botRightPoint":{"x":516,"y":810}},"offset":{"x":-1,"y":0}}]}

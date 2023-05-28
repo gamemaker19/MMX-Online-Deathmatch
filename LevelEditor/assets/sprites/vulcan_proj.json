@@ -1,0 +1,1 @@
+{"alignment":"center","wrapMode":"once","spritesheetPath":"vile.png","alignOffX":0,"alignOffY":0,"hitboxes":[{"tags":"","width":5,"height":3,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.03,"hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":622,"y":951},"botRightPoint":{"x":627,"y":954}},"offset":{"x":0,"y":0}}]}

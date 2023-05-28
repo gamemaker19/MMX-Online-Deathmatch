@@ -1,0 +1,1 @@
+{"alignment":"center","wrapMode":"once","spritesheetPath":"effects.png","hitboxes":[{"tags":"","width":15,"height":10,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.03,"hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":390,"y":61},"botRightPoint":{"x":405,"y":71}},"offset":{"x":0,"y":0}}]}

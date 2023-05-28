@@ -1,0 +1,269 @@
+{
+  "name": "highway_1v1",
+  "path": "maps/highway_1v1/map.json",
+  "backgroundPath": "maps/highway_1v1/background.png",
+  "backwallPath": "maps/highway_1v1/backwall.png",
+  "width": 1027,
+  "height": 224,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "highway_1v1",
+  "displayName": "highway 1v1",
+  "instances": [
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 413,
+          "y": 0
+        },
+        {
+          "x": 427,
+          "y": 0
+        },
+        {
+          "x": 427,
+          "y": 213
+        },
+        {
+          "x": 413,
+          "y": 213
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 427,
+          "y": 174
+        },
+        {
+          "x": 724,
+          "y": 174
+        },
+        {
+          "x": 724,
+          "y": 242
+        },
+        {
+          "x": 427,
+          "y": 242
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 724,
+          "y": -8
+        },
+        {
+          "x": 733,
+          "y": -8
+        },
+        {
+          "x": 733,
+          "y": 213
+        },
+        {
+          "x": 724,
+          "y": 213
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 422,
+          "y": -6
+        },
+        {
+          "x": 723,
+          "y": -6
+        },
+        {
+          "x": 723,
+          "y": 4
+        },
+        {
+          "x": 422,
+          "y": 4
+        }
+      ]
+    },
+    {
+      "name": "No Scroll1",
+      "properties": {
+        "freeDir": "right",
+        "snap": true
+      },
+      "objectName": "No Scroll",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 296,
+          "y": 2
+        },
+        {
+          "x": 426,
+          "y": 2
+        },
+        {
+          "x": 426,
+          "y": 255
+        },
+        {
+          "x": 296,
+          "y": 255
+        }
+      ]
+    },
+    {
+      "name": "No Scroll2",
+      "properties": {
+        "freeDir": "left",
+        "snap": true
+      },
+      "objectName": "No Scroll",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 724,
+          "y": 0
+        },
+        {
+          "x": 838,
+          "y": 0
+        },
+        {
+          "x": 838,
+          "y": 257
+        },
+        {
+          "x": 724,
+          "y": 257
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 483,
+        "y": 150
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 673,
+        "y": 152
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 534,
+        "y": 154
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 626,
+        "y": 154
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps_shared/highway_parallax.png",
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        723,
+        4
+      ],
+      [
+        723,
+        -6
+      ],
+      [
+        422,
+        -6
+      ],
+      [
+        422,
+        4
+      ]
+    ],
+    [
+      [
+        724,
+        242
+      ],
+      [
+        724,
+        174
+      ],
+      [
+        427,
+        174
+      ],
+      [
+        427,
+        242
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "supportsVehicles": false
+}

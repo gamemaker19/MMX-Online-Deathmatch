@@ -1,0 +1,1 @@
+{"alignment":"botmid","wrapMode":"once","spritesheetPath":"ra_hawk.png","alignOffX":0,"alignOffY":0,"hitboxes":[],"frames":[{"duration":0.066,"hitboxes":[{"width":44,"height":33,"flag":0,"name":"stomp","isTrigger":true,"offset":{"x":0,"y":0}}],"POIs":[{"x":1,"y":-54}],"rect":{"topLeftPoint":{"x":927,"y":195},"botRightPoint":{"x":1005,"y":257}},"offset":{"x":1,"y":0}}]}

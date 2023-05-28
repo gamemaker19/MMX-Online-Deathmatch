@@ -1,0 +1,242 @@
+{
+  "name": "zerovirus_1v1",
+  "path": "maps/zerovirus_1v1/map.json",
+  "backgroundPath": "maps/zerovirus_1v1/background.png",
+  "backwallPath": "",
+  "width": 298,
+  "height": 224,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "zerovirus_1v1",
+  "displayName": "zero virus 1v1",
+  "instances": [
+    {
+      "name": "Backwall Zone1",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 298,
+          "y": 0
+        },
+        {
+          "x": 298,
+          "y": 186
+        },
+        {
+          "x": 0,
+          "y": 186
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 202
+        },
+        {
+          "x": 298,
+          "y": 202
+        },
+        {
+          "x": 298,
+          "y": 223
+        },
+        {
+          "x": 0,
+          "y": 223
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 293,
+          "y": 5
+        },
+        {
+          "x": 320,
+          "y": 5
+        },
+        {
+          "x": 320,
+          "y": 209
+        },
+        {
+          "x": 293,
+          "y": 209
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {
+        "unclimbable": true,
+        "boundary": true
+      },
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -27,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 210
+        },
+        {
+          "x": -27,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 301,
+          "y": 2
+        },
+        {
+          "x": 301,
+          "y": 8
+        },
+        {
+          "x": 0,
+          "y": 8
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 32,
+        "y": 173
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 262,
+        "y": 174
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 80,
+        "y": 174
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 215,
+        "y": 173
+      }
+    }
+  ],
+  "parallaxes": [
+    {
+      "path": "maps/zerovirus_1v1/backwall.png",
+      "isLargeCamOverride": false,
+      "mirrorX": 0,
+      "startX": 0,
+      "startY": 0,
+      "speedX": 0.5,
+      "speedY": 0.5,
+      "scrollSpeedX": 0,
+      "scrollSpeedY": 0
+    }
+  ],
+  "mergedWalls": [
+    [
+      [
+        298,
+        223
+      ],
+      [
+        298,
+        202
+      ],
+      [
+        0,
+        202
+      ],
+      [
+        0,
+        223
+      ]
+    ],
+    [
+      [
+        301,
+        8
+      ],
+      [
+        301,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  ],
+  "supportsCTF": false,
+  "supportsCP": false,
+  "supportsKOTH": false,
+  "supportsRace": false,
+  "parallaxShader": "zerovirus1v1",
+  "backgroundShader": "",
+  "supportsVehicles": false
+}

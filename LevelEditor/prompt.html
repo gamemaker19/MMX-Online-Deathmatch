@@ -1,0 +1,29 @@
+<body>
+  <p id="label"></p>
+  <p>
+    <input type = "text" id="data" value="">
+    <input type = "button" id="ok" value="OK" onclick="response()">
+    <input type = "button" value="Cancel" onclick="cancel()">
+  </p>
+  
+  <script>
+  const { ipcRenderer } = require("electron")
+  function cancel() {
+    ipcRenderer.send("closeDialog", "")
+    this.close();
+  }
+  
+  function response() {
+    ipcRenderer.send("closeDialog", document.getElementById("data").value)
+    this.close();
+  }
+  
+  window.onload=function() {
+    var options = ipcRenderer.sendSync("openDialog", "")
+    var params = JSON.parse(options)
+    document.getElementById("label").innerHTML = params.label;
+    document.getElementById("data").value = params.value;
+    document.getElementById("ok").value = params.ok;
+  }
+  </script>
+  </body>

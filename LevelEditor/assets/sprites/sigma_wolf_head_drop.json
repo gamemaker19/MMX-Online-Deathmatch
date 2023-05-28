@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"center","wrapMode":"once","spritesheetPath":"sigma_x1.png","hitboxes":[{"tags":"","width":25,"height":40,"flag":0,"isTrigger":false,"offset":{"x":0,"y":12}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":431,"y":799},"botRightPoint":{"x":495,"y":875}},"offset":{"x":0,"y":12}}]}

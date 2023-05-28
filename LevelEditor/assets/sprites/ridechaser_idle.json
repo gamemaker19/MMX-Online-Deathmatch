@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"botmid","wrapMode":"once","spritesheetPath":"ridechaser.png","hitboxes":[{"width":40,"height":26,"flag":2,"name":"","isTrigger":true,"offset":{"x":6,"y":0}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":8,"y":29},"botRightPoint":{"x":59,"y":55}},"offset":{"x":6,"y":0}}]}

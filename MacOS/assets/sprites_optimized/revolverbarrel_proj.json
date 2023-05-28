@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"center","wrapMode":"once","spritesheetPath":"axl.png","customMapName":"","hitboxes":[{"tags":"","width":5,"height":5,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":71,"y":4},"botRightPoint":{"x":81,"y":9}},"offset":{"x":0,"y":0}}]}

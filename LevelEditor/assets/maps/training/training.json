@@ -1,0 +1,572 @@
+{
+  "name": "training",
+  "path": "maps/training/training.json",
+  "backgroundPath": "maps/training/background.png",
+  "backwallPath": "maps/training/backwall.png",
+  "foregroundPath": "",
+  "width": 298,
+  "height": 224,
+  "maxPlayers": 2,
+  "supportsLargeCam": false,
+  "mirrorX": 0,
+  "mirroredOnly": false,
+  "shortName": "training",
+  "displayName": "training",
+  "instances": [
+    {
+      "name": "Water Zone1",
+      "properties": {},
+      "objectName": "Water Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 296,
+          "y": 3
+        },
+        {
+          "x": 296,
+          "y": 221
+        },
+        {
+          "x": 1,
+          "y": 221
+        }
+      ]
+    },
+    {
+      "name": "Backwall Zone1",
+      "properties": {},
+      "objectName": "Backwall Zone",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 16,
+          "y": 16
+        },
+        {
+          "x": 282,
+          "y": 16
+        },
+        {
+          "x": 282,
+          "y": 193
+        },
+        {
+          "x": 16,
+          "y": 193
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape1",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 14,
+          "y": 193
+        },
+        {
+          "x": 281,
+          "y": 193
+        },
+        {
+          "x": 281,
+          "y": 224
+        },
+        {
+          "x": 14,
+          "y": 224
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape2",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 281,
+          "y": 1
+        },
+        {
+          "x": 301,
+          "y": 1
+        },
+        {
+          "x": 301,
+          "y": 221
+        },
+        {
+          "x": 281,
+          "y": 221
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape3",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 17,
+          "y": -100
+        },
+        {
+          "x": 281,
+          "y": -100
+        },
+        {
+          "x": 281,
+          "y": 16
+        },
+        {
+          "x": 17,
+          "y": 16
+        }
+      ]
+    },
+    {
+      "name": "Collision Shape4",
+      "properties": {},
+      "objectName": "Collision Shape",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": -3,
+          "y": 1
+        },
+        {
+          "x": 17,
+          "y": 1
+        },
+        {
+          "x": 17,
+          "y": 221
+        },
+        {
+          "x": -3,
+          "y": 221
+        }
+      ]
+    },
+    {
+      "name": "Ladder1",
+      "properties": {},
+      "objectName": "Ladder",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 139,
+          "y": 18
+        },
+        {
+          "x": 160,
+          "y": 18
+        },
+        {
+          "x": 160,
+          "y": 112
+        },
+        {
+          "x": 139,
+          "y": 112
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point6",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 63,
+        "y": 144
+      }
+    },
+    {
+      "name": "Spawn Point7",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 90,
+        "y": 145
+      }
+    },
+    {
+      "name": "Spawn Point8",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 116,
+        "y": 143
+      }
+    },
+    {
+      "name": "Spawn Point9",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 138,
+        "y": 144
+      }
+    },
+    {
+      "name": "Spawn Point10",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 164,
+        "y": 145
+      }
+    },
+    {
+      "name": "Spawn Point11",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 188,
+        "y": 143
+      }
+    },
+    {
+      "name": "Spawn Point12",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 215,
+        "y": 146
+      }
+    },
+    {
+      "name": "Spawn Point13",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 241,
+        "y": 143
+      }
+    },
+    {
+      "name": "Spawn Point14",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 266,
+        "y": 142
+      }
+    },
+    {
+      "name": "Blue Spawn1",
+      "properties": {},
+      "objectName": "Blue Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 52,
+        "y": 182
+      }
+    },
+    {
+      "name": "Red Spawn1",
+      "properties": {},
+      "objectName": "Red Spawn",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 246,
+        "y": 182
+      }
+    },
+    {
+      "name": "Spawn Point1",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 52,
+        "y": 182
+      }
+    },
+    {
+      "name": "Spawn Point2",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 247,
+        "y": 181
+      }
+    },
+    {
+      "name": "Blue Flag1",
+      "properties": {},
+      "objectName": "Blue Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 32,
+        "y": 179
+      }
+    },
+    {
+      "name": "Control Point1",
+      "properties": {
+        "hill": true
+      },
+      "objectName": "Control Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 151,
+        "y": 183
+      }
+    },
+    {
+      "name": "Red Flag1",
+      "properties": {},
+      "objectName": "Red Flag",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 270,
+        "y": 181
+      }
+    },
+    {
+      "name": "Large Ammo1",
+      "properties": {},
+      "objectName": "Large Ammo",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 170,
+        "y": 184
+      }
+    },
+    {
+      "name": "Large Health1",
+      "properties": {},
+      "objectName": "Large Health",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 135,
+        "y": 184
+      }
+    },
+    {
+      "name": "Node1",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 33,
+        "y": 178
+      }
+    },
+    {
+      "name": "Node2",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node3"
+          },
+          {
+            "nodeName": "Node1"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 153,
+        "y": 179
+      }
+    },
+    {
+      "name": "Node3",
+      "properties": {
+        "neighbors": [
+          {
+            "nodeName": "Node2"
+          }
+        ]
+      },
+      "objectName": "Node",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 267,
+        "y": 177
+      }
+    },
+    {
+      "name": "Spawn Point3",
+      "properties": {},
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 99,
+        "y": 182
+      }
+    },
+    {
+      "name": "Spawn Point4",
+      "properties": {
+        "flipX": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 206,
+        "y": 180
+      }
+    },
+    {
+      "name": "Gate1",
+      "properties": {},
+      "objectName": "Gate",
+      "mirrorEnabled": 0,
+      "points": [
+        {
+          "x": 21,
+          "y": 19
+        },
+        {
+          "x": 54,
+          "y": 19
+        },
+        {
+          "x": 54,
+          "y": 50
+        },
+        {
+          "x": 21,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "name": "Spawn Point5",
+      "properties": {
+        "raceStartSpawn": true
+      },
+      "objectName": "Spawn Point",
+      "mirrorEnabled": 0,
+      "pos": {
+        "x": 39,
+        "y": 144
+      }
+    }
+  ],
+  "parallaxes": [],
+  "mergedWalls": [
+    [
+      [
+        281,
+        193
+      ],
+      [
+        281,
+        16
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        17,
+        193
+      ]
+    ],
+    [
+      [
+        301,
+        221
+      ],
+      [
+        301,
+        1
+      ],
+      [
+        281,
+        1
+      ],
+      [
+        281,
+        -100
+      ],
+      [
+        17,
+        -100
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        221
+      ],
+      [
+        14,
+        221
+      ],
+      [
+        14,
+        224
+      ],
+      [
+        281,
+        224
+      ],
+      [
+        281,
+        221
+      ]
+    ]
+  ],
+  "supportsCTF": true,
+  "supportsCP": false,
+  "supportsKOTH": true,
+  "supportsRace": false,
+  "supportsVehicles": false
+}

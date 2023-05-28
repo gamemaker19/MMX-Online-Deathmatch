@@ -1,0 +1,1 @@
+{"alignment":"botmid","wrapMode":"once","spritesheetPath":"ra_frog.png","alignOffX":0,"alignOffY":0,"hitboxes":[],"frames":[{"duration":0.066,"hitboxes":[{"width":45,"height":36,"name":"stomp","isTrigger":true,"offset":{"x":1,"y":0}}],"POIs":[{"x":6,"y":-53}],"rect":{"topLeftPoint":{"x":658,"y":124},"botRightPoint":{"x":719,"y":183}},"offset":{"x":0,"y":0}}]}

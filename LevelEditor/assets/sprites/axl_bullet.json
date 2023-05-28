@@ -1,0 +1,1 @@
+{"loopStartFrame":0,"alignment":"center","wrapMode":"loop","spritesheetPath":"axl.png","hitboxes":[{"tags":"","width":8,"height":6,"isTrigger":true,"offset":{"x":0,"y":0}}],"frames":[{"duration":0.066,"xDir":1,"yDir":1,"tags":"","hitboxes":[],"POIs":[],"rect":{"topLeftPoint":{"x":354,"y":93},"botRightPoint":{"x":362,"y":99}},"offset":{"x":0,"y":0}}]}
